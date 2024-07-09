@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>
+        STOPWATCH
+    </h1>
+    <table cellpadding=5>
+        <tr>
+            <td>
+                <h1 class="label" id="hr">00</h1>
+                <p>Hours</p>
+            </td>
+            <td>
+                <h1 class="label" id="min">00</h1>
+                <p>Minutes</p>
+            </td>
+            <td>
+                <h1 class="label" id="sec">00</h1>
+                <p>Seconds</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="reset()" id="reset">Reset</button>
+            </td>
+            <td>
+                <button onclick="stop()" id="stop">Stop</button>
+            </td>
+            <td>
+                <button onclick="start()" id="start">Start</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
