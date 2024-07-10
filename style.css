@@ -1,0 +1,33 @@
+body{
+            font-family: 'roboto mono';
+            background: linear-gradient(rgb(89, 127, 197),rgb(95, 150, 85));
+            height:600px;
+            overflow: hidden;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            margin-top: 100px;
+            color: aliceblue;
+            
+            
+        }
+        table{
+            margin: 20px auto;
+            text-align: center;
+        }
+        .label{
+            font-size: 100px;
+            line-height: 100px;
+            margin: 5px;
+            width: 120px;
+        }
+        td>button{
+            width: 100px;
+            padding: 8px;
+            border: 1px solid #fff;
+            background-color: rgba(0, 0, 0, 0.192);
+            color: #fff;
+            font-size: 20px;
+            border-radius: 5px;
+        }
