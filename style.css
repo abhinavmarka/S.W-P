@@ -1,36 +1,82 @@
 body{
-            font-family: 'roboto mono';
-            background: linear-gradient(rgb(89, 127, 197),rgb(95, 150, 85));
-            height:600px;
-            overflow: hidden;
-        }
-        h1{
-            font-size: 45px;
-            text-align: center;
-            margin-top: 100px;
-            color: aliceblue;
-            
-            
-        }
-        table{
-            margin: 20px auto;
-            text-align: center;
-            border: 15px solid black;
-            border-radius: 20%;
-            padding: 20px;        
-        }
-        .label{
-            font-size: 100px;
-            line-height: 100px;
-            margin: 5px;
-            width: 120px;
-        }
-        td>button{
-            width: 100px;
-            padding: 8px;
-            border: 1px solid #fff;
-            background-color: rgba(0, 0, 0, 0.192);
-            color: #fff;
-            font-size: 20px;
-            border-radius: 5px;
-        }
+    font-family: 'roboto mono';
+    background: linear-gradient( rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(istockphoto-1165253730-612x612.jpg);
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(0, 206, 209);
+    
+    
+}
+table{
+    margin: 20px auto;
+    text-align: center;
+    border: 7px solid rgb(189, 106, 10);
+    border-radius: 10%;
+    padding: 20px;
+    background-image: url("360_F_181334456_izy7WhJzEvkJzZrQWyBHmOCchKViuAGS.jpg");        
+}
+.label{
+    font-size: 100px;
+    line-height: 100px;
+    margin: 5px;
+    width: 120px;
+}
+
+td>p{
+    color: #fff;
+
+}
+
+ #hr{
+    padding: 7px;
+    border: 7px solid rgb(214, 118, 16);
+    border-radius: 30%;
+}
+
+#min{
+    padding: 7px;
+    border: 7px solid rgb(214, 118, 16);
+    border-radius: 30%;
+}
+
+#sec{
+    padding: 7px;
+    border: 7px solid rgb(214, 118, 16);
+    border-radius: 30%;
+}
+
+
+ #reset{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #fff;
+    background-color: rgba(220, 24, 24, 0.815);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20%;
+}
+
+#stop{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #fff;
+    background-color: rgba(226, 191, 15, 0.815);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20%;
+}
+
+#start{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #fff;
+    background-color: rgb(2, 86, 49);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20%;
+}
